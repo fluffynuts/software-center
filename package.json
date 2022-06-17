@@ -1,0 +1,10 @@
+{
+  "name": "software-center",
+  "scripts": {
+      "build": "run-s \"zarro build\"",
+      "zarro": "zarro"
+  },
+  "devDependencies": {
+    "zarro": "^1.103.0"
+  }
+}

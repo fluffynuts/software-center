@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>software_center.tests</RootNamespace>
+    <AssemblyName>software_center.tests</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NExpect" Version="1.0.267" />
+    <PackageReference Include="NUnit" Version="3.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\software-center\software-center.csproj" />
+  </ItemGroup>
+</Project>
